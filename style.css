@@ -5,21 +5,27 @@ body
    
     
 }
+.banner
+{ 
+  position: fixed;
+  font-size: 30px;
+   display:inline-flex;
+ 
+
+}
 h1
 {
-    display:inline;
+    
     color: black;
     /* text-decoration-style: double; */
     font-style: italic;
     padding: 10px;
-    position: fixed;
-    font-size: 50px;
+    
     text-decoration: none;
 }
 h2
 {
-  
-    float:right;
+
     color: black;
     font-style: italic;
     text-decoration:dotted;
@@ -76,7 +82,9 @@ title
    padding: 100px;
    text-align: center;
    display: flex;
-   
+   background-color: gray;
+
+      
 }
 .id
 {

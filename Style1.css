@@ -1,0 +1,121 @@
+body
+{
+    background-color: azure;
+    background-size: 0px;
+   
+    
+}
+.content
+{
+    display: block;
+}
+.banner
+{ 
+  position: fixed;
+  font-size: 30px;
+}
+h1
+{
+    display:inline-flex;
+    color: black;
+    /* text-decoration-style: double; */
+    font-style: italic;
+    padding: 10px;
+    
+    text-decoration: none;
+}
+h2
+{
+  
+    float: right;
+    color: black;
+    font-style: italic;
+    text-decoration:dotted;
+    pointer-events: auto;
+}
+h3
+{
+    text-decoration: underline;
+}
+a:link
+  
+  {
+    text-decoration: none;
+    text-shadow: 1em;
+  }
+.main-section-content
+{
+    display: block;
+  
+    padding: 200px;
+    text-align: center;
+}
+.l-section__subtitle
+{
+    font-size: 25px;
+    margin: 0;
+    padding: 10;
+}
+.l-section__heading
+{
+    font-size: 60px;
+    margin: 0px;
+    padding: 0;
+}
+.l-section__introduction
+{
+   font-size: large;
+   margin: 0px;
+    padding: 0;
+}
+.container-2-columns
+{
+    display: block;
+    display:inline-flex;
+    text-align: center;
+    padding-left: 600px;
+    box-sizing: border-box;
+    column-gap: 300px;
+  
+}
+.columns-1
+{
+    margin: 0;
+    padding: 0%;
+    line-height: 0px;
+}
+
+.columns-2
+{
+   margin: 0;
+    line-height: 0px;
+    
+}
+.Content-box
+{
+    margin-top: 200px;
+    display: block;
+   
+    
+    text-align: center;
+}
+.form-Title2
+{
+   display: block;
+}
+h4
+{
+    font-size: 50;
+    margin: 0;
+}
+h5{
+    font-size: 30;
+    
+}
+
+@media only screen and (max-width: 1042px) {
+    .container-2-columns {
+      width: 80%;
+    }
+    
+}
