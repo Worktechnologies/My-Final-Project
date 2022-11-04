@@ -1,22 +1,20 @@
 <html>
     <head>
-        <link rel="stylesheet" href="Style1.css" />
+        <link rel="stylesheet" href="style1.css" />
         <title>Attractive Web Design</title>
     </head>
      
     <body>
-        
-            <div class="banner">
-                <h1> <a id="GFG" href="file:///C:/Users/parmr/My-Final-Project/index.html"><big>Design</big></a> </h1>
-           
-               
-               
-                <h2><a href="file:///C:/Users/parmr/My-Final-Project/Contact.html">Contact &nbsp;&nbsp;</a> </h2>
-                <h2><a href="file:///C:/Users/parmr/My-Final-Project/index.html">About &nbsp;&nbsp;</a></h2>
-                <h2><a href="file:///C:/Users/parmr/My-Final-Project/index.html">Work &nbsp;&nbsp;</a></h2>
-                <h2><a href="file:///C:/Users/parmr/My-Final-Project/index.html">Website &nbsp;&nbsp;</a></h2>
+        <div class="banner">
+            <div class="leftbar"><h1> <a id="GFG" href="file:///C:/Users/parmr/My-Final-Project/index.html"><big>Design</big></a> </h1>
             </div>
-    
+            <div class="rightbar"> <h2><a href=file:///C:/Users/parmr/My-Final-Project/index.html>Website</a>&nbsp;&nbsp;&nbsp;<a href="file:///C:/Users/parmr/My-Final-Project/index.html">Work</a>&nbsp;&nbsp;&nbsp;<a href="file:///C:/Users/parmr/My-Final-Project/index.html">About</a>&nbsp;&nbsp;&nbsp;<a href="file:///C:/Users/parmr/My-Final-Project/Contact.html">Contact</a></h2>
+                
+            </div>
+        </div>
+       
+           
+        </div>
              <div class="Main-section-content">
                 <div class="l-section__subtitle">Contact WorkTechnologies</div>
                      <h1 class="l-section__heading">We’re All here</h1>
@@ -29,11 +27,11 @@
 
             <div class="container-2-columns">
                 <div class="columns-1">
-                    <h1>Email</h1>
+                    <h1>Email</h1><br>
                     <h3>WorkTechnologies25@gmail.com</h3>
                 </div>
                 <div class="columns-2" >
-                    <h1>call</h1>
+                    <h1>call</h1><br>
                     <h3>0000000000</h3>
                     
                 </div>
@@ -44,13 +42,83 @@
                     <div class="form-Title2">
                         <h4>Reach Out</h4>
                         <h5>Here’s a form for enquiries, questions and feedback. If you know the particulars of your new project, <br>give us a heads-up by filling out our new project briefing form.</h5>
-                        <form>
-                            <label>Name</label>
-                        </form>
+                    
+                        <!-- <form>
+                            <label>Enter First Name</label>
+                            <input id="first name" name="first name" placeholder="Enter First Name" size="30px" style="height: 40px;"/>&nbsp;&nbsp;&nbsp;
+
+                            <label>Enter Last Name</label>
+                            <input id="Last Name" name="Last name" placeholder="Enter Last Name" size="30px" style="height: 40px;"/><br><br><br>
+
+                            <label>Business</label>
+                            <input id="Business " name="Business" placeholder="Business " size="60px" style="height: 40px;"/><br><br><br>
+                        
+                       
+                            <label>Email&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <input type="email" id="email" name="email" placeholder="Email" size="60px" style="height: 40px;"/><br><br><br>
+
+                            <label>Your Message</label>
+                            <input id="message " name="message" placeholder="Type Your Messgae here " size="60px" style="height: 100px;"/><br><br><br>
+
+
+                        </form> -->
                     </div>
 
             </div>
-        
-        
+            <div class="gform_body"  >
+                    <ul id ="gform_field_1" class="gform_field top_label form_sublabel_below discription_below"> </ul>
+                        <li id="field_1" class="gfield"></li>
+                    <label class="gfield_label"><big>"Name"</big>
+                            <span class="gfield_required"></span>
+                            <span class="gfield required gfield required_asterick">*</span><br>
+                        <div class="input_2_columns" id="input_1">
+                            <span id="name_1" class="first_name">
+                                <input id="  first name" name="first name" placeholder="Enter first Name" size="50px" style="height: 40px;" &nbsp&nbsp&nbsp /><br>
+                                <label for="first name">First</label>
+                            </span>
+                            <span id="name_1" class="last_name">
+                                <input id="Last Name" name="Last name" placeholder="Enter Last Name" size="50px" style="height: 40px;" /><br>
+                                <label for="name_2">Last</label>
+
+                            </span>
+                        </div>
+                    </label>    <br><br><br>
+                      
+                    <label class="field_2_label"><big>"Business Name"</big><br>
+                        <span class="field_2_required"></span>
+                    <div class="field_2" id="Name">
+                        <span id="Business_name" class="name_text">
+                            <input id=" business name" name="Business name" placeholder="Enter Business Name" size="108px" style="height: 40px;"  />
+                        </span>
+                        
+                    </div>
+                    </label>    <br><br><br>
+                    <label class="field_3_label"><big>"Email"</big><br>
+                        <span class="field_3_required"></span>
+                        <div class="field_3" id="email">
+                            <span id="Email" class="Email_text">
+                                <input id="Email" name="Email" placeholder="Enter Email" size="108px" style="height: 40px;"  />
+                            </span>
+
+                        </div>
+                    </label><br><br><br>
+                    <label class="field_4_label"><big>"Your Message"</big><br>
+                        <span class="field_4_required"></span>
+                        <div class="field_4" id="message">
+                            <span id="Message" class="message_text">
+                                <input id="message_text" name="Messgae" placeholder="Enter your message" size="108px" style="height: 150px;"  />
+                            </span>
+
+                        </div>
+                    </label>
+                    <div class="Button">
+                        <input type="submit" value="Submit" size="50px" style="height: 30px;" onclick="Your form has been submitted" >
+                    </div>
+                    
+            </div> 
+                   
+
+
+            
     </body>
 </html>

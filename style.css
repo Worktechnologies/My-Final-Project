@@ -7,28 +7,31 @@ body
 }
 .banner
 { 
-  position: fixed;
+  display: block;
+ 
   font-size: 30px;
-   display:inline-flex;
+  display:inline-flex;
+  width: 100%;
+   
+  color: black;
+  /* text-decoration-style: double; */
+  font-style: italic;
+  
  
 
 }
-h1
+.leftbar
 {
-    
-    color: black;
-    /* text-decoration-style: double; */
-    font-style: italic;
-    padding: 10px;
-    
-    text-decoration: none;
+ padding-top: 0;
 }
-h2
-{
 
-    color: black;
-    font-style: italic;
-    text-decoration:dotted;
+
+.rightbar
+{
+    padding-left: 800px;
+   
+    float:right;
+    
    
 }
   a:link
@@ -47,17 +50,19 @@ h3
 {
    
   
-    padding: 150;
+      padding: 350;
   
       max-width: 700px;
       width: auto;
-      height: auto;
+      height: 400px;
+      padding-top: 10px;
+     
       
 }
 
-.li
+.Inrtroduction
 {
-    font-size: 30px;
+    font-size: 20px;
     
 }
 div
@@ -79,10 +84,11 @@ title
 {
 
     font-size: 40%;
-   padding: 100px;
    text-align: center;
    display: flex;
    background-color: gray;
+   padding: 100px;
+   /* margin-top: 10px; */
 
       
 }
@@ -121,4 +127,10 @@ h5
       .section-2 {
         width: 80%;
   }
+}
+@media only screen and (max-width: 1042px) 
+{
+  .banner {
+    width: 80%;
+}
 }
