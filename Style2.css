@@ -1,0 +1,65 @@
+body
+{
+    background-color: azure;
+   
+    
+}
+.banner
+{ 
+  display: block;
+ 
+  font-size: 30px;
+  display:inline-flex;
+  width: 100%;
+   
+  color: black;
+  /* text-decoration-style: double; */
+  font-style: italic;
+  
+ 
+
+}
+.leftbar
+{
+ padding-top: 0;
+ padding-left: 150px;
+}
+
+
+.rightbar
+{
+    padding-left: 900px;
+   
+    float:right;
+}
+a:link
+  
+  {
+    text-decoration: none;
+    text-shadow: 1em;
+  }
+  .Block_1
+  {
+    display: block;
+  }
+  .Block_subTitle
+  {
+    font-size: 30px;
+    padding-left: 45%;
+    margin-top: 40px;
+  }
+  .Block_Header
+  {
+    text-align: center;
+   font-size: 20px;
+   
+  }
+  .Block_paragraph
+  {
+    font-size: 20px;
+    text-align: center;
+  }
+  .Block_2
+  {
+    display: block;
+  }
