@@ -7,8 +7,8 @@ body
 .banner
 { 
   display: block;
- 
-  font-size: 30px;
+  font-size: large;
+  
   display:inline-flex;
   width: 100%;
    
@@ -21,16 +21,16 @@ body
 }
 .leftbar
 {
- padding-top: 0;
- padding-left: 150px;
+  padding-left: 100px;
 }
-
 
 .rightbar
 {
-    padding-left: 900px;
+    padding-left: 800px;
    
     float:right;
+    
+   
 }
 a:link
   
@@ -62,4 +62,5 @@ a:link
   .Block_2
   {
     display: block;
+    max-width: 200px;
   }

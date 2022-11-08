@@ -1,0 +1,91 @@
+body
+{
+    background-color: azure;
+   
+    
+}
+.banner
+{ 
+    padding-top: 50px;
+  display: block;
+  font-size: large;
+  
+  width:auto; 
+   
+  color: black;
+  /* text-decoration-style: double; */
+  font-style: italic;
+  position: fixed;
+  
+ 
+
+}
+.leftbar
+{
+    padding-left: 100px;
+}
+
+.rightbar
+{
+   padding-left: 100px;
+ font-size: 50px;
+}
+h4
+{
+  text-align: center;
+  font-size: 20;
+  margin-bottom: 0;
+}
+h2
+
+{
+  text-align: center;;
+  font-size: 20;
+  margin-top: 0;
+}
+a:link
+  
+  {
+    text-decoration: none;
+    text-shadow: 1em;
+  }
+  .About_Content
+  {
+    display: block;
+    font-size: 30px;
+    width:50%;
+   padding-left: 600px;
+    padding-top: 100px;
+    
+   
+
+  }
+  /* .p
+  {
+    margin-inline-end: 20%;
+    max-height: auto;
+    display: inline-flex;
+  } */
+  
+
+  /* .About_Image
+  {
+    margin-left: 20%;
+  } */
+  @media only screen and(max-height:auto)
+   {
+    .About_Content
+    {
+      height: auto;
+
+    }
+    
+  }
+  @media only screen and (max-width:auto)
+  {
+    .About_Content{
+      width: auto;
+    }
+  }
+    
+   
