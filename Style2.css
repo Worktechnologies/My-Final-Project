@@ -1,6 +1,7 @@
 body
 {
     background-color: azure;
+    background-image: "C:\Users\parmr\My-Final-Project\Image_2.jpg";
    
     
 }
@@ -15,6 +16,7 @@ body
   color: black;
   /* text-decoration-style: double; */
   font-style: italic;
+  background-color: gray;
   
  
 

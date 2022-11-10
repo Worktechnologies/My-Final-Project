@@ -1,6 +1,5 @@
 body
 {
-    background-color: azure;
     background-size: 0px;
    
     
@@ -11,12 +10,14 @@ body
   font-size: large;
   
   display:inline-flex;
-  width: 100%;
+  width: 1790px;
    
   color: black;
   /* text-decoration-style: double; */
   font-style: italic;
-  
+  background-color: gray;
+  border-radius: 20px;
+
  
 
 }
@@ -87,30 +88,40 @@ title
    display: flex;
    background-color: gray;
    padding: 100px;
-   /* margin-top: 10px; */
+   margin-bottom: 100px;
+   border-radius: 20px;
 
       
 }
-.id
+/* .id
 {
+
   
- 
-  display: flex;
+ margin-top: 10px;
+display: inline-flex;
+  padding-left: 20px;
  
   
-}
-p
+} */
+/* p
 {
 
   text-align: center;
   font-size: 20;
   height: auto;
   width: 500;
-  float:right;
   max-height: 200;
 
-}
-h5
+} */
+.Image
+
+{
+  display: block;
+  font-size: 20px;
+  display: inline-flex;
+  margin-bottom: 200px;
+
+}h5
 {
     padding: 50px;
     text-align:center;
