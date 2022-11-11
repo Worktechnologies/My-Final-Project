@@ -11,9 +11,7 @@ body
   font-size: large;
   
   width:auto; 
-   
-  color: black;
-  /* text-decoration-style: double; */
+  text-decoration: antiquewhite;
   font-style: italic;
   position: fixed;
   background-color: gray;
@@ -22,9 +20,20 @@ body
  
 
 }
-.leftbar
+.topbanner
 {
-    padding-left: 90px;
+  display: block;
+  width: 100%;
+  height: 500px;
+  background-color: #fdce08;
+  border-bottom-left-radius: 80%;
+  text-align: center;
+  font-size: 40px;
+  border-bottom-right-radius: 20px;
+  
+  font-style: italic;
+  padding-top: 50px;
+=
 }
 
 .rightbar
