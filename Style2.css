@@ -3,6 +3,7 @@ body
     background-color: azure;
     background-image: "C:\Users\parmr\My-Final-Project\Image_2.jpg";
    
+   
     
 }
 .banner
@@ -11,13 +12,13 @@ body
   font-size: large;
   
   display:inline-flex;
-  width: 100%;
+  width: 1850px;
    
   color: black;
   /* text-decoration-style: double; */
   font-style: italic;
   background-color: gray;
-  
+  border-radius: 20px;
  
 
 }
@@ -61,8 +62,40 @@ a:link
     font-size: 20px;
     text-align: center;
   }
-  .Block_2
+  /* .Block_2
   {
     display: block;
     max-width: 200px;
+    padding-left: 150px;
+  } */
+  .Highlights
+  {
+    padding-left: 150px;
+    display: inline-flex;
+    margin-bottom: 50px;margin-right: 60px;
+   
+  }
+  .Highlights2
+  {
+    margin-left: 50px;;
+  }
+  .Block-2
+  {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .para_list
+  {
+    display: inline-flex;
+    float: left;
+  }
+  .list1
+  {
+    max-width: 500px;
+    text-align: left;
+    padding-left: 400px;
+    margin-left: 100px;
+
   }
