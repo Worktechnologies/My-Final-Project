@@ -141,7 +141,13 @@ display: inline-flex;
   width: 400psx;
   height: 300px;
 
-}h5
+}
+.Image-Images1
+{
+  display: inline;
+  width: 400px;
+}
+h5
 {
     padding: 50px;
     text-align:center;
