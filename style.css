@@ -133,6 +133,7 @@ display: inline-flex;
 .Image
 
 {
+
   display: block;
   font-size: 20px;
   display: inline-flex;
@@ -151,6 +152,7 @@ display: inline-flex;
 .Image-Images2
 {
   display: inline;
+  margin-left: 50px;
 }
 h5
 {
