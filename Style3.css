@@ -50,6 +50,15 @@ h2
   font-size: 30px;
   margin-top: 0;
 }
+.image
+{
+  
+ float: left;
+  height: auto;
+ 
+  width:0;
+ 
+}
 a:link
   
   {
@@ -60,9 +69,11 @@ a:link
   {
     display: block;
     font-size: 30px;
-    width:50%;
+    width: 50%;;
    padding-left: 600px;
     padding-top: 100px;
+    display: inline-block;
+  color: white;
     
    
 
