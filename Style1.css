@@ -47,6 +47,8 @@ a:link
   
     padding: 200px;
     text-align: center;
+    background-color: rgba(255, 192, 203, 0.541);
+    border-radius: 30px;
 }
 .l-section__subtitle
 {
