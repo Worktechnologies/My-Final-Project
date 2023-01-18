@@ -1,7 +1,7 @@
+<!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="Style1.css" />
-        <script src="src/contact.js"></script>
         <title>Attractive Web Design</title>
     </head>
      
@@ -17,7 +17,9 @@
                         Work</a>&nbsp;&nbsp;&nbsp;
                        <a href="About.html" style="color: white"> 
                             About</a>&nbsp;&nbsp;&nbsp;
-                           <a href="Contact.html" style="color: white">Contact</a>
+                           <a href="Contact.html" style="color: white">
+                            Contact</a>&nbsp;&nbsp;&nbsp;
+                            <a href="Blog.html" style="color: white">Blog</a>
                                </h2>
                                
             </div>
@@ -68,12 +70,11 @@
                             <span id="name_1" class="first_name">
                                 <input id="  first name" name="firstname" placeholder="Enter first Name" size="50px" style="height: 40px;" required &nbsp&nbsp&nbsp ><br>
                                 <label for="first name">First</label>
-                                <small></small>
+                                <small id="name_error"></small>
                             </span>
                             <span id="name_1" class="last_name">
                                 <input id="Last Name" name="Lastname" placeholder="Enter Last Name" size="50px" style="height: 40px;" required /><br>
                                 <label for="name_2">Last</label>
-                                <small></small>
                             </span>
                         </div>
                     </label>    <br><br><br>
@@ -83,7 +84,6 @@
                     <div class="field_2" id="Name">
                         <span id="Business_name" class="name_text">
                             <input id=" business name" name="Businessname" placeholder="Enter Business Name" size="108px" style="height: 40px;" required  />
-                        <small></small>
                         </span>
                         
                     </div>
@@ -93,7 +93,7 @@
                         <div class="field_3" id="email">
                             <span id="Email" class="Email_text">
                                 <input id="Email" name="Email" placeholder="Enter Email" size="108px" style="height: 40px;" required/>
-                            <small></small>
+                            <small id="email_error"></small>
                             </span>
 
                         </div>
@@ -103,7 +103,6 @@
                         <div class="field_4" id="message">
                             <span id="Message" class="message_text">
                                 <textarea id="message_text" name="Messgae" placeholder="Enter your message" size="108px" style="height: 100px;" required></textarea>
-                            <small></small>
                             </span>
 
                         </div>
@@ -115,7 +114,6 @@
             </div> 
                    
         </form>
-
-         
+        <script src="contact.js"></script>  
     </body>
 </html>

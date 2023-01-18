@@ -1,0 +1,39 @@
+body
+{
+    background-size: 0px;
+   background-color: rgba(255, 192, 203, 0.541);;
+    
+}
+.banner
+{ 
+  display: block;
+  font-size: 20px;
+  
+  display:inline-flex;
+  width:100%;
+  height: 400px;
+   
+  color: black;
+  /* text-decoration-style: double; */
+  font-style: italic;
+  background-color:#fdce08;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 30px;
+ 
+
+ 
+
+}
+.leftbar
+{
+  padding-left: 100px;
+}
+
+.rightbar
+{
+    padding-left: 800px;
+   
+    float:right;
+    
+   
+}
