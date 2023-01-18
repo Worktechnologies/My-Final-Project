@@ -1,10 +1,12 @@
 <html>
     <head>
         <link rel="stylesheet" href="Style1.css" />
+        <script src="src/contact.js"></script>
         <title>Attractive Web Design</title>
     </head>
      
     <body>
+        
         <div class="banner">
             <div class="leftbar"><h1> <a id="GFG" href="index.html" style="color: white"><big>WorkTechnologies</big></a> </h1>
             </div>
@@ -55,6 +57,7 @@
                     </div>
 
             </div>
+            <form action="Contact.html" method="post" id="Contact">
             <div class="gform_body"  >
                     <ul id ="gform_field_1" class="gform_field top_label form_sublabel_below discription_below"> </ul>
                         <li id="field_1" class="gfield"></li>
@@ -63,13 +66,14 @@
                             <span class="gfield required gfield required_asterick">*</span><br>
                         <div class="input_2_columns" id="input_1">
                             <span id="name_1" class="first_name">
-                                <input id="  first name" name="first name" placeholder="Enter first Name" size="50px" style="height: 40px;" required &nbsp&nbsp&nbsp ><br>
+                                <input id="  first name" name="firstname" placeholder="Enter first Name" size="50px" style="height: 40px;" required &nbsp&nbsp&nbsp ><br>
                                 <label for="first name">First</label>
+                                <small></small>
                             </span>
                             <span id="name_1" class="last_name">
-                                <input id="Last Name" name="Last name" placeholder="Enter Last Name" size="50px" style="height: 40px;" required /><br>
+                                <input id="Last Name" name="Lastname" placeholder="Enter Last Name" size="50px" style="height: 40px;" required /><br>
                                 <label for="name_2">Last</label>
-
+                                <small></small>
                             </span>
                         </div>
                     </label>    <br><br><br>
@@ -78,7 +82,8 @@
                         <span class="field_2_required"></span>
                     <div class="field_2" id="Name">
                         <span id="Business_name" class="name_text">
-                            <input id=" business name" name="Business name" placeholder="Enter Business Name" size="108px" style="height: 40px;"  />
+                            <input id=" business name" name="Businessname" placeholder="Enter Business Name" size="108px" style="height: 40px;" required  />
+                        <small></small>
                         </span>
                         
                     </div>
@@ -87,7 +92,8 @@
                         <span class="field_3_required"></span>
                         <div class="field_3" id="email">
                             <span id="Email" class="Email_text">
-                                <input id="Email" name="Email" placeholder="Enter Email" size="108px" style="height: 40px;" aria-required="true" />
+                                <input id="Email" name="Email" placeholder="Enter Email" size="108px" style="height: 40px;" required/>
+                            <small></small>
                             </span>
 
                         </div>
@@ -96,19 +102,20 @@
                         <span class="field_4_required"></span>
                         <div class="field_4" id="message">
                             <span id="Message" class="message_text">
-                                <textarea id="message_text" name="Messgae" placeholder="Enter your message" size="108px" style="height: 100px;"></textarea>
+                                <textarea id="message_text" name="Messgae" placeholder="Enter your message" size="108px" style="height: 100px;" required></textarea>
+                            <small></small>
                             </span>
 
                         </div>
                     </label>
                     <div class="Button">
-                        <input type="submit" >
+                        <input type="submit",value="click me" >
                     </div>
                     
             </div> 
                    
+        </form>
 
-
-            
+         
     </body>
 </html>
